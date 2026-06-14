@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "genesis",
+	"version": "${version}",
+	"name": "Genesis",
+	"description": "这是棱光工作室最牛逼的模组",
+	"authors": [
+		"YiTPac_",
+		"Hulue(to join)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/genesis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.prism.genesis.Genesis"
+		],
+		"client": [
+			"com.prism.client.GenesisClient"
+		],
+		"fabric-datagen": [
+			"com.prism.client.GenesisDataGenerator"
+		]
+	},
+	"mixins": [
+		"genesis.mixins.json",
+		{
+			"config": "genesis.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
