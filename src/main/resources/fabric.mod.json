@@ -5,12 +5,12 @@
 	"name": "Genesis",
 	"description": "这是棱光工作室最牛逼的模组",
 	"authors": [
-		"YiTPac_",
+		"YiTPac",
 		"Hulue(to join)"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/YiTPac/genesis-template-1.20.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/genesis/icon.png",
