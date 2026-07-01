@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ICE_ETHER = registerItems("ice_ether", new Item(new Item.Settings()));
+    public static final Item RAW_ICE_ETHER = registerItems("raw_ice_ether", new Item(new Item.Settings()));
     private static Item registerItems(String id, Item item){
         //return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(Genesis.MOD_ID, id)), item);
         return Registry.register(Registries.ITEM, Identifier.of(Genesis.MOD_ID, id), item);

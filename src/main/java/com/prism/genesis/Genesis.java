@@ -1,5 +1,6 @@
 package com.prism.genesis;
 
+import com.prism.genesis.block.ModBlocks;
 import com.prism.genesis.item.ModItemGroups;
 import com.prism.genesis.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class Genesis implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

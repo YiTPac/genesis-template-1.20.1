@@ -1,15 +1,11 @@
 package com.prism.genesis.item;
 
 import com.prism.genesis.Genesis;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import com.prism.genesis.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -35,8 +31,10 @@ public class ModItemGroups {
                 .icon(() -> new ItemStack(ModItems.ICE_ETHER))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.ICE_ETHER);
-                    entries.add(Blocks.COMMAND_BLOCK);
-                    entries.add(Items.DEBUG_STICK);
+                    entries.add(ModItems.RAW_ICE_ETHER);
+                    entries.add(ModBlocks.ICE_ETHER_ORE);
+                    entries.add(ModBlocks.RAW_ICE_ETHER_BLOCK);
+                    entries.add(ModBlocks.ICE_ETHER_BLOCK);
                 }).build());
     public static void registerModItemGroups(){
         Genesis.LOGGER.info("Registering Item Groups");

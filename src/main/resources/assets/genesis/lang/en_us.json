@@ -1,4 +1,10 @@
 {
   "item.genesis.ice_ether": "Ice Ether",
-  "itemGroup.genesis_group": "Genesis Group"
+  "item.genesis.raw_ice_ether": "Raw Ice Ether",
+
+  "block.genesis.ice_ether_block": "Ice Ether Block",
+  "block.genesis.ice_ether_ore": "Ice Ether Ore",
+  "block.genesis.raw_ice_ether_block": "Raw Ice Ether Block",
+
+  "itemGroup.genesis_group": "Genesis"
 }
