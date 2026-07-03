@@ -15,6 +15,7 @@ import net.minecraft.item.Item.Settings;
 
 public class ModBlocks {
     public static final Block ICE_ETHER_BLOCK = register("ice_ether_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    //public static final Block ICE_ETHER_BLOCK = null;
     public static final Block ICE_ETHER_ORE = register("ice_ether_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,6.0f)));
     public static final Block RAW_ICE_ETHER_BLOCK = register("raw_ice_ether_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static void registerBlockItems(String id, Block block) {

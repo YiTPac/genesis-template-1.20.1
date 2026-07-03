@@ -1,0 +1,4 @@
+// 1.20.1	2026-07-03T16:34:16.7904353	Genesis/Block Loot Tables
+05924a8bddf05283da8de579d31cdf345940e1bb data\genesis\loot_tables\blocks\ice_ether_ore.json
+3370aaa2860fdfa871ce0d04131456957fbdf07a data\genesis\loot_tables\blocks\raw_ice_ether_block.json
+583e760a23419dcb9ae026824f63a679c0aba9e6 data\genesis\loot_tables\blocks\ice_ether_block.json

@@ -25,7 +25,8 @@ public class ModItemGroups {
 //                        }).build());
 //
 //    }
-    public static final ItemGroup GENESIS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Genesis.MOD_ID,"genesis_group"),
+    public static final ItemGroup GENESIS_GROUP = Registry.register(Registries.ITEM_GROUP,
+        Identifier.of(Genesis.MOD_ID,"genesis_group"),
         ItemGroup.create(null, -1)
                 .displayName(Text.translatable("itemGroup.genesis_group"))
                 .icon(() -> new ItemStack(ModItems.ICE_ETHER))
@@ -35,6 +36,8 @@ public class ModItemGroups {
                     entries.add(ModBlocks.ICE_ETHER_ORE);
                     entries.add(ModBlocks.RAW_ICE_ETHER_BLOCK);
                     entries.add(ModBlocks.ICE_ETHER_BLOCK);
+                    entries.add(ModItems.CHEESE);
+                    entries.add(ModItems.STRAWBERRY);
                 }).build());
     public static void registerModItemGroups(){
         Genesis.LOGGER.info("Registering Item Groups");

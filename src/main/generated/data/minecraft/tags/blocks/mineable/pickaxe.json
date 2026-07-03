@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "genesis:ice_ether_block",
+    "genesis:ice_ether_ore",
+    "genesis:raw_ice_ether_block"
+  ]
+}
