@@ -2,36 +2,28 @@
 	"schemaVersion": 1,
 	"id": "genesis",
 	"version": "${version}",
-	"name": "Genesis",
-	"description": "这是棱光工作室最牛逼的模组",
+	"name": "genesis",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"YiTPac",
-		"Hulue(to join)"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/YiTPac/genesis-template-1.20.1"
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/genesis/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.prism.genesis.Genesis"
-		],
-		"client": [
-			"com.prism.client.GenesisClient"
+			"com.prism.genesis.Genesis"
 		],
 		"fabric-datagen": [
-			"com.prism.client.GenesisDataGenerator"
+			"com.prism.genesis.GenesisDataGenerator"
 		]
 	},
 	"mixins": [
-		"genesis.mixins.json",
-		{
-			"config": "genesis.client.mixins.json",
-			"environment": "client"
-		}
+		"genesis.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",

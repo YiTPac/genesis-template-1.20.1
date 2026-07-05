@@ -3,13 +3,14 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "tag": "genesis:sugar_tag"
     }
   },
   "pattern": [
     "###"
   ],
   "result": {
+    "count": 3,
     "item": "minecraft:sugar"
   },
   "show_notification": true

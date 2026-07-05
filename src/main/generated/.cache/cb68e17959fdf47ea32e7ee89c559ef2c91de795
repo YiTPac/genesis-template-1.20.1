@@ -1,0 +1,5 @@
+// 1.20.1	2026-07-05T15:50:37.0643411	genesis/Tags for minecraft:block
+ed9f17936ac21531f9e8e3a17da8afb8c6a56228 data\minecraft\tags\blocks\mineable\pickaxe.json
+25633a1b7a1bc4cb904cc86f11211a042587068d data\minecraft\tags\blocks\needs_stone_tool.json
+695b3d731516a501d13b45d0337c8bad9b2ea2e6 data\genesis\tags\blocks\ore_list.json
+b77eb8cd6ae188bff5fa6f8fb78e74dc5f1fcd4c data\minecraft\tags\blocks\needs_iron_tool.json

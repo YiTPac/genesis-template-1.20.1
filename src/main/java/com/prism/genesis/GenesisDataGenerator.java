@@ -1,4 +1,4 @@
-package com.prism.client;
+package com.prism.genesis;
 
 import com.prism.genesis.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -15,6 +15,6 @@ public class GenesisDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipesProvider::new);
 		pack.addProvider(ModModelsProvider::new);
-		//pack.addProvider(ModItemTagsProvider::new);
+		pack.addProvider(ModItemTagsProvider::new);
 	}
 }
