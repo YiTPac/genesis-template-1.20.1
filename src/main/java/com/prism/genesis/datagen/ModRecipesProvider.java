@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipesProvider extends FabricRecipeProvider {
-    private static final List<ItemConvertible> ICE_ETHER = List.of(ModItems.RAW_ICE_ETHER, Items.ICE);
+    private static final List<ItemConvertible> ICE_ETHER_INGEDIANTS = List.of(ModItems.RAW_ICE_ETHER, Items.ICE, ModBlocks.ICE_ETHER_ORE);
 
     public ModRecipesProvider(FabricDataOutput output) {
         super(output);
@@ -29,8 +29,8 @@ public class ModRecipesProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.ICE_ETHER, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ICE_ETHER_BLOCK);
-        offerSmelting(exporter, ICE_ETHER, RecipeCategory.MISC, ModItems.ICE_ETHER, 0.7f, 200, "ice_ether");
-        offerBlasting(exporter, ICE_ETHER, RecipeCategory.MISC, ModItems.ICE_ETHER, 0.7f, 100, "ice_ether");
+        offerSmelting(exporter, ICE_ETHER_INGEDIANTS, RecipeCategory.MISC, ModItems.ICE_ETHER, 0.7f, 200, "ice_ether");
+        offerBlasting(exporter, ICE_ETHER_INGEDIANTS, RecipeCategory.MISC, ModItems.ICE_ETHER, 0.7f, 100, "ice_ether");
         offerFoodCookingRecipe(exporter, "campfire_cooking", RecipeSerializer.CAMPFIRE_COOKING,600, ModItems.RAW_ICE_ETHER, ModItems.ICE_ETHER,0.35f);
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.SUGAR)
                 .pattern("###")

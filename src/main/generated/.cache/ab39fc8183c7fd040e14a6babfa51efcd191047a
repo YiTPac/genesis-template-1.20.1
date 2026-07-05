@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-03T16:34:16.7904353	Genesis/Model Definitions
+// 1.20.1	2026-07-04T19:53:54.2779229	Genesis/Model Definitions
 45a0ce4868e9ddee3887c0c5cc2c64fe6123795d assets\genesis\blockstates\ice_ether_ore.json
 59479e473e569ca4ed23e584812162e5a6255950 assets\genesis\models\item\ice_ether_ore.json
 86315084edbb6b3caee0261bb02efdbfbc417a4e assets\genesis\models\item\cheese.json
@@ -7,8 +7,10 @@ d4e89ad067d29a435a120fdb8884669fe6e3d04d assets\genesis\blockstates\raw_ice_ethe
 467821c9b7cbe2e83e9f4c802846bb2940b8c652 assets\genesis\models\item\ice_ether_block.json
 0a7c660129287080d4d2f342eaef8a7b6afbcd58 assets\genesis\models\block\ice_ether_ore.json
 980b485365e42bfe7116a02a806a7033030f0206 assets\genesis\models\item\ice_ether.json
+d03271bd53ef3b0fd01cba242abe9cc4a4c8652f assets\genesis\models\item\prospector.json
 379b1a2474ce0fe9c3c1a13c4f4e8dac87b97e11 assets\genesis\models\item\raw_ice_ether.json
 718318a01957bcb230dc0868e4a8ce586cad9bbf assets\genesis\blockstates\ice_ether_block.json
 7962b18690a84b2df5595d33533b403ada5516c6 assets\genesis\models\item\raw_ice_ether_block.json
+265659c4582825afca39fb5a86a416b94ee2abe5 assets\genesis\models\item\anthracite.json
 9b458e6dd9e7cabce1b3ab988e8947875dc93db5 assets\genesis\models\block\ice_ether_block.json
 97ca87305bfab7765f6d67ae6a29d22fe56500ba assets\genesis\models\item\strawberry.json

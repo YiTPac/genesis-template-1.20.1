@@ -2,8 +2,10 @@
   "block.genesis.ice_ether_block": "Ice Ether Block",
   "block.genesis.ice_ether_ore": "Ice Ether Ore",
   "block.genesis.raw_ice_ether_block": "Raw Ice Ether Block",
+  "item.genesis.anthracite": "Anthracite",
   "item.genesis.cheese": "Cheese",
   "item.genesis.ice_ether": "Ice Ether",
+  "item.genesis.prospector": "Prospector",
   "item.genesis.raw_ice_ether": "Raw Ice Ether",
   "item.genesis.strawberry": "Strawberry",
   "itemGroup.genesis_group": "Genesis"

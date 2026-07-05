@@ -3,7 +3,10 @@
 	"package": "com.prism.genesis.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"AbstractFurnaceBlockEntityMixin",
+		"EndermanEntityMixin",
+		"ExampleMixin",
+		"GrassColorsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

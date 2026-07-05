@@ -3,10 +3,13 @@ package com.prism.genesis;
 import com.prism.genesis.block.ModBlocks;
 import com.prism.genesis.item.ModItemGroups;
 import com.prism.genesis.item.ModItems;
+import com.prism.genesis.mixin.GrassColorsMixin;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.awt.*;
 
 public class Genesis implements ModInitializer {
 	public static final String MOD_ID = "genesis";
@@ -24,6 +27,10 @@ public class Genesis implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
 		ModBlocks.registerModBlocks();
+
+		int[] colorMap = GrassColorsMixin.getColorMap();
+		LOGGER.info("Retrieved color map with {} entries", colorMap.length);
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }

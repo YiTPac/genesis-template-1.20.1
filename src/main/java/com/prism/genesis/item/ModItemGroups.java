@@ -33,11 +33,14 @@ public class ModItemGroups {
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.ICE_ETHER);
                     entries.add(ModItems.RAW_ICE_ETHER);
+                    entries.add(ModItems.ANTHRACITE);
                     entries.add(ModBlocks.ICE_ETHER_ORE);
                     entries.add(ModBlocks.RAW_ICE_ETHER_BLOCK);
                     entries.add(ModBlocks.ICE_ETHER_BLOCK);
                     entries.add(ModItems.CHEESE);
                     entries.add(ModItems.STRAWBERRY);
+                    entries.add(ModItems.ANTHRACITE);
+                    entries.add(ModItems.PROSPECTOR);
                 }).build());
     public static void registerModItemGroups(){
         Genesis.LOGGER.info("Registering Item Groups");
